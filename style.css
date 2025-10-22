@@ -1,0 +1,201 @@
+#michel{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.imgHeader{
+    height: 70px;
+    width: 70px;
+}
+
+header{
+    margin-top:-20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(red, green, blue, 1);
+    padding: 25px;
+}
+
+#section1{
+    background-image: url(src/img/1.jpeg);
+    height: 100vh;
+    width: 100vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    flex-direction: column;
+}
+
+
+
+.section1Text{
+    margin-top: 40px;
+    font-size: 95px;
+    transform:scaleY(3);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs;
+    text-shadow: 2px 2px 4px #383838;
+}
+
+.section1PText{
+    margin-top: 90px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs;
+    text-shadow: 2px 2px 4px #383838;
+}
+
+
+
+
+
+
+
+
+#section2{
+    min-height: 100vh;
+    background-color: rgb(230, 230, 230);
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    
+}
+
+
+
+.sectPartUn{
+    min-height: 100%;
+    width: 55%;
+    
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+
+.CardSect{
+    
+    width: 500px;
+    height: 400px;
+
+    margin-left: 150px;
+    margin-top: 240px;
+}
+
+
+
+
+
+.leclercStore{
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+    font-size: 12px;
+    transform:scaleY(1.2);
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.collection{
+    font-family:Arial, Helvetica, sans-serif;
+    
+    font-size: 15px;
+   
+    margin-bottom: 30px;
+}
+
+
+
+
+.NewIn{
+    
+    
+    font-size: 65px;
+    transform:scaleY(1.2);
+    margin-bottom: 20px;
+    margin-bottom: -18px;
+    font-weight: 400;
+
+}
+
+
+
+.ClRacing{
+    font-size: 70px;
+    transform:scaleY(1.2);
+    margin-bottom: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+
+
+
+
+.storeVisit{
+
+    width: 150px;
+    height: 30px;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+
+
+
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+    font-size: 12px;
+    transform:scaleY(1.2);
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+
+
+
+
+.sectPartDeux{
+    min-height: 100%;
+    width: 45%;
+    
+}
+
+.charleUn{
+    width: 420px;
+    height: 700px;
+
+    position: absolute;
+    z-index: 1;
+}
+
+
+.tagUn{
+    
+    height: 100px;
+    margin-left: 200px;
+    margin-top: 650px;
+    position: absolute;
+    z-index: 2;
+
+}

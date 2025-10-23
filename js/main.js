@@ -27,6 +27,24 @@ gsap.to("#michel",{
     x:'-100vw',
     duration:2,
 
-})*/
+})
+    
+*/
+
+/*
+Draggable.create("#sectionimg",{
+    type: "x,y",
+    bounds: "# le nom de l'id que ta mis",
+    cursor: 'grab',
+
+    onDrag: function(){
+        gsap.to("#sectionimg",{
+            width: '150px',
+            filter: 'dropshadow(30px 10px 4px black')',
+        })
+    },
+})
+
+*/
 
 

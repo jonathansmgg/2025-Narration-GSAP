@@ -1,8 +1,4 @@
-#michel{
-    width: 200px;
-    height: 200px;
-    background-color: blue;
-}
+
 
 
 *{
@@ -23,6 +19,37 @@ header{
     width: 100%;
     background-color: rgba(red, green, blue, 1);
     padding: 25px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+    justify-content: space-between;
+}
+
+
+.storeVisitUn{
+
+    width: 100px;
+    height: 38px;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+
+
+
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+    font-size: 12px;
+    transform:scaleY(1.2);
+    
+    font-weight: 700;
+
 }
 
 #section1{
@@ -66,7 +93,7 @@ header{
 
 #section2{
     min-height: 100vh;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(255, 255, 255);
     
     display: flex;
     flex-direction: row;
@@ -198,4 +225,188 @@ header{
     position: absolute;
     z-index: 2;
 
+}
+
+
+
+#section3{
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.imgQuatre{
+    width: 200px;
+    height: 140px;
+    margin-bottom: 20px;
+}
+
+.textSect3{
+    font-size: 108px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px;
+    
+    font-weight: 700;
+    line-height: 0.85;
+
+    width: 90vw;
+    letter-spacing: -1px;
+}
+
+
+
+.highlight{
+    font-family: none;
+    color: #961b1e;
+    letter-spacing: -5px;
+}
+
+
+
+
+
+
+#section4{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+
+    
+}
+
+
+.sectUnQuatre{
+    min-height: 100%;
+    width: 50%;
+    
+}
+
+
+.sectDeuxQuatre{
+    min-height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.textSect4Deux{
+    display: flex;
+    
+    align-items: flex-start;
+    flex-direction: column;
+    width: 40%;
+
+    margin-left: 30px;
+    
+}
+
+.textSect4Deux2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 40%;   
+    margin-right: 30px;
+}
+
+
+
+.charleSideProf{
+    width: 60%;
+    margin-top: 72px;
+    align-self: flex-end;
+
+    height: 700px;
+    width: 800px;
+}
+
+
+.On{
+    font-size: 65px;
+    transform:scaleY(1.2);
+    margin-bottom: 20px;
+    margin-bottom: -18px;
+    font-weight: 400;
+
+
+}
+
+
+.Track{
+    font-size: 70px;
+    transform:scaleY(1.2);
+    margin-bottom: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+
+.pQuatre{
+    font-family:Arial, Helvetica, sans-serif;
+    
+    font-size: 15px;
+   
+    margin-bottom: 30px;
+    letter-spacing: 0.3px;
+    text-align: right;
+}
+
+.pQuatreDeux{
+    font-family:Arial, Helvetica, sans-serif;
+    
+    font-size: 15px;
+   
+    margin-bottom: 30px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
+
+
+.charleSideProfDeux{
+    width: 60%;
+    margin-top: 72px;
+    align-self: flex-end;
+
+    height: 700px;
+    width: 800px;
+}
+
+.textSectUnQuatre{
+    display: flex;
+    flex-direction: row;
+}
+
+.sectUnQuatre{
+    min-height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+
+.Off{
+    font-size: 65px;
+    transform:scaleY(1.2);
+    margin-bottom: 20px;
+    margin-bottom: -18px;
+    font-weight: 400;
+
+    display: flex;
+    justify-content: end;
+    
 }

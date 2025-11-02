@@ -4,6 +4,9 @@ gsap.registerPlugin(ScrollTrigger, Observer, ScrollToPlugin, Draggable, MotionPa
 
 
 
+
+
+
 /** Animation d'entrée du site web du Titre */
 
 
@@ -165,7 +168,7 @@ gsap.from(".anim-text", {
   y: 80,       // je mets l'élement plus bas de 80px pour que ca fasse un effet pop avec le scale 0.7
   scale: 0.7,  // ca va créer un effet de zoom en le mettant a 70%
   duration: 2,
-  ease: "power2.out"
+  ease: "power1.out"
 });
 
 // animation du logo 
@@ -182,7 +185,7 @@ gsap.from(".imgQuatre", {
   y: -40,      // le logo descend comparé au texte pour faire un effet différent
   scale: 1.3,  // zoom pour attirer l'oeil
   duration: 3,
-  ease: "power2.out"
+  ease: "power1.out"
 });
 
 
@@ -202,7 +205,7 @@ gsap.from(".sectUnQuatre .charleSideProfDeux", {
   x: -200,
   opacity: 0,
   duration: 1,
-  ease: "power3.out"
+  ease: "power1.out"
 });
 
 gsap.from(".sectUnQuatre .textSect4Deux2", {
@@ -214,7 +217,7 @@ gsap.from(".sectUnQuatre .textSect4Deux2", {
   x: -100,
   opacity: 0,
   duration: 1,
-  ease: "power3.out"
+  ease: "power1.out"
 });
 
 
@@ -233,7 +236,7 @@ gsap.from(".sectDeuxQuatre .charleSideProf", {
   x: 200,
   opacity: 0,
   duration: 1,
-  ease: "power3.out"
+  ease: "power1.out"
 });
 
 gsap.from(".sectDeuxQuatre .textSect4Deux", {
@@ -245,7 +248,7 @@ gsap.from(".sectDeuxQuatre .textSect4Deux", {
   x: 100,
   opacity: 0,
   duration: 1,
-  ease: "power3.out"
+  ease: "power1.out"
 });
 
 
